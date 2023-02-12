@@ -74,7 +74,7 @@ export default function Navbar({ current }) {
                   text="Switch"
                   onClick={() => navigate("/dashboard-customer")}
                 /> */}
-                <Toggle />
+                {current === "Dashboard" && <Toggle />}
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
