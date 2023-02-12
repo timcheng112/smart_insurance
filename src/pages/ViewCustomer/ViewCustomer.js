@@ -56,7 +56,7 @@ const ViewCustomer = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="overflow-hidden bg-gray-100 shadow sm:rounded-lg">
+    <div className="overflow-hidden bg-gray-100 shadow sm:rounded-lg font-dmSans">
       <Navbar />
       <div className="pl-6 pt-3">
         <Button text="Go back" onClick={() => navigate("/dashboard")} />

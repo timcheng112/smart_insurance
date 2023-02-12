@@ -15,35 +15,35 @@ const Table = ({ customers }) => {
                 <tr>
                   <th
                     scope="col"
-                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6 font-dmSans"
                     // colSpan={2}
                   >
                     #
                   </th>
                   <th
                     scope="col"
-                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6 font-dmSans"
                     // colSpan={2}
                   >
                     Name
                   </th>
                   <th
                     scope="col"
-                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6 font-dmSans"
                     // colSpan={4}
                   >
                     Organisation
                   </th>
                   <th
                     scope="col"
-                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6 font-dmSans"
                     // colSpan={4}
                   >
                     Phone
                   </th>
                   <th
                     scope="col"
-                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                    className="py-3.5 pl-4 text-left text-sm font-semibold text-gray-900 sm:pl-6 font-dmSans"
                     // colSpan={4}
                   >
                     Actionables
@@ -53,19 +53,19 @@ const Table = ({ customers }) => {
               <tbody>
                 {customers.map((customer) => (
                   <tr className="border-t border-gray-200 bg-white">
-                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6">
+                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6 font-dmSans">
                       {customer.id}
                     </td>
-                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6">
+                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6 font-dmSans">
                       {customer.name}
                     </td>
-                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6">
+                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6 font-dmSans">
                       {customer.organisation}
                     </td>
-                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6">
+                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6 font-dmSans">
                       {customer.phone}
                     </td>
-                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6">
+                    <td className=" px-4 py-3 text-left text-sm font-semibold text-gray-900 sm:px-6 font-dmSans">
                       <Button
                         text="View"
                         onClick={() =>

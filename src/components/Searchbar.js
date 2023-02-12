@@ -4,7 +4,7 @@ import React from "react";
 const Searchbar = ({ query, onChange }) => {
   return (
     <div className="w-full max-w-lg lg:max-w-xs px-6 pt-6">
-      <label htmlFor="search" className="sr-only">
+      <label htmlFor="search" className="sr-only font-dmSans">
         Search
       </label>
       <div className="relative">
