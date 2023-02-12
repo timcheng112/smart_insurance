@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-cred = credentials.Certificate('C:/Users/benedict halim/smart_insurance/backend/smart-insurance-e89d0-firebase-adminsdk-km7b0-89e0fad9fd.json')
+cred = credentials.Certificate("INSERT FIREBASE CREDENTIALS")
 firebase_admin.initialize_app(cred)
 
 db=firestore.client()
